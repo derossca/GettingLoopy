@@ -79,5 +79,29 @@ public class Main {
             }
             System.out.println();
         }
+
+        System.out.println("\n");
+
+        //Extra Credit
+
+        for(int row = 1; row <= 3; row ++){
+            for(int col = 1; col <=9; col ++){
+                System.out.print("*");
+            }
+            System.out.println();
+        } //makes a 3x9 table for the top of the letter C
+        for(int row = 1; row <=3; row ++){
+            for(int col = 1; col <=3; col ++){
+                System.out.print("*");
+            }
+            System.out.println();
+        } //makes a 3x3 table for the middle portion of the letter C
+        for(int row = 1; row <=3; row ++){
+            for(int col = 1; col <= 9; col ++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
     }
 }
