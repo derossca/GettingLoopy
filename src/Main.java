@@ -48,11 +48,36 @@ public class Main {
 
         //TASK 5
 
+        //nested for loops to create rows and columns
         for(int row = 1; row <= 5; row ++){ //This controls how many rows there are, 5 rows incrementing
             for(int col = 1; col <= row; col ++){ //This controls the columns, as row increases so does columns, incrementing
                 System.out.print("*"); //output is stars
             }
             System.out.println(); //each loop goes on a new line
+        }
+
+        System.out.println("\n"); //putting a new line for space between tasks
+
+        //TASK 6
+
+        //nested for loops to create rows and columns
+        for(int row = 5; row >=1; row --){ //this time the row decrements
+            for(int col = 1; col <= row; col ++){ //col continues to loop but decreases as row does
+                System.out.print("*"); //output is a star
+            }
+            System.out.println(); //each loop through on new line
+        }
+
+        System.out.println("\n"); //space between tasks
+
+        //TASK 7
+
+        //this nested for loop will create a 5x5 star pattern
+        for(int row = 1; row <= 5; row ++){
+            for(int col = 1; col <=5; col ++){
+                System.out.printf("*", row * col); //used print 5 to output a star and making a 5x5 pattern from rows and columns
+            }
+            System.out.println();
         }
     }
 }
